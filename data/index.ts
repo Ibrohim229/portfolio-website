@@ -101,7 +101,7 @@ export const projects = [
     des: "Portfolio website with beautiful designs built with Next js and Aceternity UI",
     img: "/p4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://ibrohim-portfolio-website.netlify.app/",
+    link: "https://github.com/Ibrohim229/portfolio-website",
   },
 ];
 
