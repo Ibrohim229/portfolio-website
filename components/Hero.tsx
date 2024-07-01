@@ -38,11 +38,11 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm font-semibold md:text-lg lg:text-2xl">
-            My name is Botirjonov Ibrohim <br /> I'm a{" "}
+            My name is Botirjonov Ibrohim <br /> I&apos;m a{" "}
             <span className="text-purple">front-end</span> developer
           </p>
 
-          <a href="../public/CV front-end developer.pdf" download>
+          <a href="/CV front-end developer.pdf" download>
             <MagicButton
               title="Download my CV"
               icon={<FaDownload />}
