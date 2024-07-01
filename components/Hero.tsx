@@ -42,7 +42,7 @@ const Hero = () => {
             <span className="text-purple">front-end</span> developer
           </p>
 
-          <a href="/CV front-end developer.pdf" download>
+          <a href="../public/CV front-end developer.pdf" download>
             <MagicButton
               title="Download my CV"
               icon={<FaDownload />}
