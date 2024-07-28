@@ -103,6 +103,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://github.com/Ibrohim229/portfolio-website",
   },
+  {
+    id: 5,
+    title: "Udevs Clone",
+    des: "This is the clone of the landing page of Udevs website",
+    img: "/p5.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://github.com/Ibrohim229/udevs-clone",
+  },
 ];
 
 export const testimonials = [
