@@ -21,10 +21,24 @@ export function Journey() {
             containerClassName="bg-emerald-900"
           />
         </Card>
+
         <Card
-          title="IELTS certificate"
+          title="Open Data Challenge hackathon"
           icon={<AceternityIcon order="Achievement-2" />}
-          description="I have achieved an IELTS score of 7, meeting the English language proficiency requirement for my university studies. This accomplishment validates my ability to effectively communicate and engage in academic pursuits in English, ensuring I am well-prepared for my academic journey."
+          description="I am proud to have won 3rd place in the Open Data Challenge Hackathon with my team. Together, we developed a website facilitating the exchange of ideas among scientists. Our project not only showcased our technical skills in web development but also underscored our commitment to fostering collaboration and innovation within the scientific community."
+        >
+          <CanvasRevealEffect
+            animationSpeed={3}
+            containerClassName="bg-sky-600"
+            colors={[[125, 211, 252]]}
+          />
+        </Card>
+        <Card
+          title="Work at AMC Bridge"
+          icon={<AceternityIcon order="Achievement-3" />}
+          description="I am currently working as a Full Stack Software Engineer Trainee at AMC Bridge. 
+                      This opportunity has allowed me to apply my academic knowledge in a real-world setting, 
+                      gaining valuable experience in software development and collaborating with a talented team of professionals."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -34,17 +48,6 @@ export function Journey() {
               [232, 121, 249],
             ]}
             dotSize={2}
-          />
-        </Card>
-        <Card
-          title="Open Data Challenge hackathon"
-          icon={<AceternityIcon order="Achievement-3" />}
-          description="I am proud to have won 3rd place in the Open Data Challenge Hackathon with my team. Together, we developed a website facilitating the exchange of ideas among scientists. Our project not only showcased our technical skills in web development but also underscored our commitment to fostering collaboration and innovation within the scientific community."
-        >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-sky-600"
-            colors={[[125, 211, 252]]}
           />
         </Card>
       </div>
