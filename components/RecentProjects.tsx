@@ -52,13 +52,6 @@ const RecentProjects = () => {
                     </div>
                   ))}
                 </div>
-
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check live site
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#cbacf9" />
-                </div>
               </div>
             </PinContainer>
           </div>

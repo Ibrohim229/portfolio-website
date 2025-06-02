@@ -36,7 +36,7 @@ export function Journey() {
         <Card
           title="Work at AMC Bridge"
           icon={<AceternityIcon order="Achievement-3" />}
-          description="I am currently working as a Full Stack Software Engineer Trainee at AMC Bridge. 
+          description="I am currently working as a Full Stack Software Engineer Trainee at AMC Bridge with technologies like .NET, React and Three.js. 
                       This opportunity has allowed me to apply my academic knowledge in a real-world setting, 
                       gaining valuable experience in software development and collaborating with a talented team of professionals."
         >

@@ -51,7 +51,7 @@ export const gridItems = [
   {
     id: 5,
     title:
-      "Currently working as a Full Stack Software Engineer Trainee at AMC Bridge",
+      "Currently working as a Full Stack Software Engineer Trainee at AMC Bridge with technologies like .NET, React, and Three.js.",
     description: "AMC Bridge",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -111,6 +111,14 @@ export const projects = [
     img: "/p5.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://github.com/Ibrohim229/udevs-clone",
+  },
+  {
+    id: 6,
+    title: "3D Model Viewer",
+    des: "A web application where you can upload .step files to the server, server converts it to .gltf format and displays the 3D model on the screen.",
+    img: "/p6.png",
+    iconLists: ["/re.svg", "/three.svg"],
+    link: "https://github.com/Ibrohim229/Model-viewer",
   },
 ];
 
@@ -181,28 +189,35 @@ export const workExperience = [
     title: "HTML & CSS",
     desc: "Leveraging my proficiency in HTML, I ensure web content is structured semantically for optimal accessibility and SEO. With Tailwind CSS, I create visually appealing and responsive designs, utilizing advanced techniques like Flexbox, Grid, and CSS animations.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/skill1.svg",
   },
   {
     id: 2,
     title: "JavaScript / React",
     desc: "With JavaScript, I can implement sophisticated functionality that enhances the overall usability and interactivity of web applications. My proficiency extends to modern JavaScript frameworks and libraries such as React",
     className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    thumbnail: "/skill2.svg",
   },
   {
     id: 3,
-    title: "Responsive Design",
-    desc: "I am skilled in using flexible grids, fluid layouts, and media queries to create designs that adapt to different screen sizes and orientations. My approach often involves mobile-first design principles, where I initially design for mobile devices and then enhance the layout for larger screens.",
+    title: "Node.js / Express",
+    desc: "I can build RESTful APIs and server-side applications using Node.js and Express, enabling efficient data handling and server management.",
     className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
+    thumbnail: "/skill3.svg",
   },
   {
     id: 4,
-    title: "Version Control/Git",
-    desc: "I am proficient in basic Git commands and workflows, including branching, merging, and pull requests, which help maintain a clean and organized codebase.",
+    title: "Three.js",
+    desc: "I can create interactive 3D graphics and animations for web applications. This includes rendering 3D models, implementing animations, and optimizing performance for real-time rendering.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/three.svg",
+  },
+  {
+    id: 5,
+    title: ".NET",
+    desc: "I have a solid understanding of the .NET framework, enabling me to develop robust and scalable applications. This includes familiarity with C#, ASP.NET, and Entity Framework for building web applications and APIs.",
+    className: "md:col-span-2",
+    thumbnail: "/skill5.svg",
   },
 ];
 
