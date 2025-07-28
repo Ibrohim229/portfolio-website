@@ -112,14 +112,6 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://github.com/Ibrohim229/udevs-clone",
   },
-  {
-    id: 6,
-    title: "3D Model Viewer",
-    des: "A web application where you can upload .step files to the server, server converts it to .gltf format and displays the 3D model on the screen.",
-    img: "/p6.png",
-    iconLists: ["/re.svg", "/three.svg"],
-    link: "https://github.com/Ibrohim229/Model-viewer",
-  },
 ];
 
 export const testimonials = [
